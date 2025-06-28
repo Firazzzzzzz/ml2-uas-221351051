@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FAF6FF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Simulasi Prediksi Gagal Bayar"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#5C33C6"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/inputUsia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usia" />
+
+        <EditText
+            android:id="@+id/inputPendapatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pendapatan Bulanan" />
+
+        <EditText
+            android:id="@+id/inputPinjaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Pinjaman" />
+
+        <EditText
+            android:id="@+id/inputDurasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durasi Pinjaman (bulan)" />
+
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prediksi"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:paddingTop="24dp" />
+    </LinearLayout>
+</ScrollView>

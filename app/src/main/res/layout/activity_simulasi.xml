@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/inputUsia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usia" />
+
+        <EditText
+            android:id="@+id/inputPendapatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pendapatan Bulanan" />
+
+        <EditText
+            android:id="@+id/inputPinjaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Pinjaman" />
+
+        <EditText
+            android:id="@+id/inputDurasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durasi Pinjaman (bulan)" />
+
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prediksi" />
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingTop="16dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>

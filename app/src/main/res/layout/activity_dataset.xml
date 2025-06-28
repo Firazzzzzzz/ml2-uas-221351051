@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dataset: Loan Default Prediction"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/textSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ringkasan dataset akan muncul di sini..."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contoh 5 baris teratas:"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textSample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample data..."
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+</ScrollView>
